@@ -70,7 +70,7 @@ def start(update, context):
 
     buttons.buildbutton("Report Group", "https://t.me/Mltb_chat_unofficial")
     buttons.buildbutton("Repo", "https://github.com/shuvam-dawn/MLTB-Custom-UI")
-    buttons.buildbutton("Mirror Group", "https://t.me/yunusmirrorhunter")
+    buttons.buildbutton("Mirror Group", "https://t.me/z_mirror")
     buttons.buildbutton("Owner", "https://t.me/dawn_in")
 
     reply_markup = InlineKeyboardMarkup(buttons.build_menu(2))
@@ -176,7 +176,7 @@ help_string_telegraph = f'''<br>
 '''
 
 help = telegraph.create_page(
-        title='Yunus-Mirror-Bot Help',
+        title='Z-Mirror-Bot Help',
         content=help_string_telegraph,
     )["path"]
 
