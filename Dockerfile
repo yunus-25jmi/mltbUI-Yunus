@@ -1,4 +1,4 @@
-FROM 412314/mltb:latest
+FROM yunus25jmi/yunusmirror:latest
 
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
